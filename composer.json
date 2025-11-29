@@ -1,0 +1,17 @@
+{
+    "name": "yasser/php_traineee",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yasser Taha",
+            "email": "yasser1119992017@gmail.com"
+        }
+    ],
+    "require": {
+        
+    }
+}
