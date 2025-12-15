@@ -1,6 +1,9 @@
 <?php
 
+use App\oop\CAE\Benz;
+use App\oop\CAE\BMW;
 use App\oop\CAE\Microwive;
+use App\oop\CAE\Order;
 
 require __DIR__ . '/../vendor/autoload.php';
 
@@ -8,8 +11,17 @@ require __DIR__ . '/../vendor/autoload.php';
 
 // $info = new Test2('Yasser Taha', 27, 'Jaza Egypt');
 // echo $info->printInfo();
-$fdMicro= new Microwive(100,'IP50',35);
-if($fdMicro->turnOn()){
-    echo $fdMicro->getStatus();
-    var_dump($fdMicro->deFreeze());
-}
+    // $fdMicro= new Microwive(100,'IP50',35);
+    //     if($fdMicro->turnOn()){
+    //         echo $fdMicro->getStatus();
+    //         var_dump($fdMicro->deFreeze());
+    //     }
+$bmw =new BMW(100,2,'black','front');
+$benz =new Benz(100,2,'black','front');
+
+$order1=new Order('cairo','minia',300);
+
+$order2=new Order('asown','assuit',400);
+// $order1->devierdeOrder($bmw);
+// $order2->devierdeOrder($benz);
+var_dump($order1->devierdeOrder($bmw),$order2->devierdeOrder($benz));

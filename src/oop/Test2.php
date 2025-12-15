@@ -22,6 +22,8 @@ class Test2
         // $this->printInfo();
     }
     public function printInfo(){
-        return "My Name is {$this->name} , I have {$this->age} Years Old, live in {$this->adress}";
+        return "My Name is {$this->name} , 
+                I have {$this->age} Years Old, 
+                live in {$this->adress}";
     }
 }

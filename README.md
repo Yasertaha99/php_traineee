@@ -101,7 +101,7 @@ class User {
     }
 }
 ```
-Access Modifiers in PHP
+# Access Modifiers in PHP
 
                 ┌─────────────┐
                 │   Class     │
@@ -145,7 +145,7 @@ Counter::increment();
 Counter::increment();
 echo Counter::$count; // 2
 ```
-## 🏷 Constants
+## 🏷 Constants 🏷
 
 - Fixed values that **cannot change**  
 - Defined using the `const` keyword  
